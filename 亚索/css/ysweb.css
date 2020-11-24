@@ -1,0 +1,107 @@
+@CHARSET "UTF-8";
+
+#bg {
+	background: url("../image/blackys.jpg") no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: Tahoma, Arial, Roboto, ”Droid Sans”, ”Helvetica Neue”,
+		”Droid Sans Fallback”, ”Heiti SC”, sans-self;
+}
+
+.header {
+	padding-left: 900px;
+	padding-top: 200px;
+}
+.header{
+	opacity: .6;
+}
+.video_area {
+	margin-top: 450px;
+	margin-left: 1px";
+}
+
+video {
+	width: 890px;
+	height: 500px;
+}
+.photo_text .photo{
+	opacity: .6;
+}
+.photo_text .text{
+	opacity: .85;
+}
+.clear_fix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.photo_text>div {
+	float: left;
+}
+
+.photo {
+	width: 40%;
+}
+
+.photo img {
+	width: 100%;
+}
+
+.text {
+	width: 60%
+}
+
+.text h1 {
+	text-indent: 2em;
+	color: #8080c0;
+	letter-spacing: 4px;
+}
+
+.text p {
+	text-indent: 2em;
+	color: #8080c0;
+	font-size: 30px;
+	letter-spacing: 7px;
+}
+.footer{
+	width:100%;
+	background: #000000;
+	height: 120px;
+}
+.footer .last{
+	width:100px;
+	height:40px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.last img{
+	width:100%;
+	height: 100%;
+}
+.footer .last_text{
+	width:700px;
+	height:30px;
+	margin:0 auto;
+	margin-top: 20px;
+}
+.last_text p{
+	color: #fff;
+	text-align: center;
+}
+.footer{
+	opacity: .6;
+}
+.top{
+	display:none;
+	width:50px;
+	height: 30px;
+	position: fixed;
+	right: 30px;
+	bottom: 120px;
+}
+.top p,img{
+	width:100%;
+	text-align: center;
+}
